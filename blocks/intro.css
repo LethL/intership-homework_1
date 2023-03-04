@@ -1,0 +1,46 @@
+.intro {
+  padding: 125px 65px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro__title {
+  margin: 0 0 137px 0;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 110%;
+  text-align: center;
+}
+
+.intro__links {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  width: 123px;
+  justify-content: space-between;
+}
+
+.intro__links-item:hover {
+  animation: bounce 1s;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  80% {
+    transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
