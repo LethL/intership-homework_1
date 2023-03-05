@@ -1,0 +1,14 @@
+.column__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.column__wrappper {
+  display: flex;
+}
+
+.column__content-rectangle {
+  min-height: 247px;
+  width: 50%;
+  background-color: #a6806b;
+}

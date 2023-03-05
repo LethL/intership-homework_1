@@ -6,15 +6,17 @@
 }
 
 .intro__title {
-  margin: 0 0 137px 0;
+  margin: 0 0 133px 0;
   font-weight: 600;
   font-size: 64px;
-  line-height: 110%;
+  line-height: 70.05px;
   text-align: center;
+  max-width: 330px;
 }
 
 .intro__links {
   padding: 0;
+  margin: 0;
   list-style: none;
   display: flex;
   width: 123px;
