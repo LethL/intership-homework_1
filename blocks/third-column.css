@@ -1,0 +1,14 @@
+.third-column {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.third-column__square {
+  height: 185px;
+  width: 232px;
+  background-color: #a61c1c;
+}
+
+.third-column__doors-img {
+  grid-row: span 2;
+}

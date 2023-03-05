@@ -1,13 +1,13 @@
-.column__content {
+.second-column {
   display: flex;
   flex-direction: column;
 }
 
-.column__wrappper {
+.second-column__wrappper {
   display: flex;
 }
 
-.column__content-rectangle {
+.column__content__rectangle {
   min-height: 247px;
   width: 50%;
   background-color: #a6806b;
