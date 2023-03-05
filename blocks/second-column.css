@@ -7,8 +7,45 @@
   display: flex;
 }
 
-.column__content__rectangle {
-  min-height: 247px;
+.second-column__rectangle {
+  height: 247px;
   width: 50%;
   background-color: #a6806b;
+}
+
+.x {
+  display: block;
+  width: 100%;
+  height: 473px;
+  object-fit: cover;
+}
+
+.y {
+  width: 50%;
+  height: 247px;
+  object-fit: cover;
+}
+
+@media (min-width: 1536px) {
+  .x {
+    height: auto;
+    min-height: 473px;
+  }
+
+  .y {
+    height: auto;
+    min-height: 247px;
+  }
+
+  .second-column__rectangle {
+    height: auto;
+    min-height: 247px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* .third-column {
+    grid-template-columns: 458px auto;
+    grid-column: 1/3;
+  } */
 }

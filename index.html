@@ -11,7 +11,7 @@
 
 <body>
     <main class="main">
-        <section>
+        <section class="first-column">
             <div class="intro">
                 <h1 class="intro__title">COMPANY CULTURE</h1>
                 <ul class="intro__links">
@@ -37,23 +37,23 @@
                     egestas amet mi aliquam. Eu, vel massa elementum nulla.</p>
             </div>
         </section>
-        <section>
-            <div class="second-column">
-                <img src="/images/lady-hat.jpg" alt="lady with hat">
-                <div class="column__wrappper">
-                    <img src="/images/coffee.jpg" alt="cup of coffee">
-                    <div class="column__content__rectangle"></div>
-                </div>
+        <section class="second-column">
+            <picture>
+                <source media="(min-width: 1281px)" srcset="/images/lady-hat_2x.jpg">
+                <img class="x" src="/images/lady-hat.jpg" alt="lady with hat">
+
+            </picture>
+            <div class="second-column__wrappper">
+                <img class="y" src="/images/coffee.jpg" alt="cup of coffee">
+                <div class="second-column__rectangle"></div>
             </div>
         </section>
-        <section>
-            <div class="third-column">
-                <img src="/images/lady-curls.jpg" alt="lady with curls">
-                <img src="/images/lady-flowers.jpg" alt="lady with flowers">
-                <img class="third-column__doors-img" src="/images/doors.jpg" alt="doors">
-                <div class="third-column__square"></div>
-                <img src="/images/man.jpg" alt="man">
-            </div>
+        <section class="third-column">
+            <img class="z" src="/images/lady-curls.jpg" alt="lady with curls">
+            <img class="z" src="/images/lady-flowers.jpg" alt="lady with flowers">
+            <img class="third-column__doors-img" src="/images/doors.jpg" alt="doors">
+            <div class="third-column__square"></div>
+            <img class="v" src="/images/man.jpg" alt="man">
         </section>
     </main>
 </body>

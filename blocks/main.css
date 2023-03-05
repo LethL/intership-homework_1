@@ -3,5 +3,19 @@
   color: #000000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+@media (max-width: 992px) {
+  .main {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
 }

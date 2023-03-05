@@ -46,3 +46,17 @@
     transform: translateY(-5px);
   }
 }
+
+@media (min-width: 1536px) {
+  .intro {
+    padding: 0;
+    justify-content: center;
+    height: 50%;
+  }
+}
+
+@media (max-width: 763px) {
+  .intro__title {
+    font-size: 50px;
+  }
+}
