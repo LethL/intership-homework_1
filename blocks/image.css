@@ -1,0 +1,51 @@
+.image {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image__lady-hat {
+  height: 473px;
+}
+
+.image__coffee {
+  min-width: 199px;
+  height: 247px;
+}
+
+.image__third-ladies {
+  height: 288px;
+}
+
+.image__doors {
+  height: 432px;
+}
+
+.image__man {
+  height: 247px;
+}
+
+@media (min-width: 1536px) {
+  .image__lady-hat {
+    height: auto;
+    min-height: 473px;
+  }
+
+  .image__coffee {
+    height: 100%;
+    min-height: 247px;
+  }
+
+  .image__third-ladies {
+    height: 100%;
+  }
+
+  .image__doors {
+    height: 100%;
+    object-fit: unset;
+  }
+
+  .image__man {
+    height: 100%;
+  }
+}
