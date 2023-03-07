@@ -9,6 +9,10 @@
   background-color: #a61c1c;
 }
 
+.third-column__square-caption {
+  color: #a61c1c;
+}
+
 .third-column__picture {
   grid-row: span 2;
 }

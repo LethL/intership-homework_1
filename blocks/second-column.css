@@ -13,6 +13,10 @@
   background-color: #a6806b;
 }
 
+.second-column__rectangle-caption {
+  color: #a6806b;
+}
+
 .second-column__picture {
   width: 51%;
 }
